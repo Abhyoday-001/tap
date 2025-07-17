@@ -24,9 +24,9 @@ export default function Navbar({ role }: NavbarProps) {
   const getNavItems = () => {
     if (!role) {
       return [
-        { name: 'Features', href: '#features' },
-        { name: 'About', href: '#about' },
-        { name: 'Contact', href: '#contact' },
+        { name: 'Features', href: '#features', icon: undefined },
+        { name: 'About', href: '#about', icon: undefined },
+        { name: 'Contact', href: '#contact', icon: undefined },
       ];
     }
 
